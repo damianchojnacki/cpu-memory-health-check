@@ -5,8 +5,6 @@ namespace Damianchojnacki\CpuMemoryHealthCheck\Checks;
 use Damianchojnacki\CpuMemoryHealthCheck\Helpers\MeasureMemoryUsage;
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Result;
-use Spatie\Regex\Regex;
-use Symfony\Component\Process\Process;
 
 class UsedMemoryCheck extends Check
 {
@@ -35,7 +33,7 @@ class UsedMemoryCheck extends Check
         $memoryUsedPercentage = $memoryUsage['percentage'];
 
         $result = Result::make()
-            ->meta(['memory_used_percentage' => $memoryUsedPercentage])
+            ->meta(['percentage' => $memoryUsedPercentage])
             ->shortSummary($memoryUsage['status']);
 
         if ($memoryUsedPercentage > $this->errorThreshold) {
