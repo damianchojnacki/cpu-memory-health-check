@@ -1,6 +1,6 @@
 <?php
 
-namespace Damianchojnacki\Helpers;
+namespace Damianchojnacki\CpuMemoryHealthCheck\Helpers;
 
 class MeasureCpuLoadPercentage
 {

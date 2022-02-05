@@ -1,8 +1,8 @@
 <?php
 
-namespace Damianchojnacki\Checks;
+namespace Damianchojnacki\CpuMemoryHealthCheck\Checks;
 
-use Damianchojnacki\Helpers\MeasureMemoryUsage;
+use Damianchojnacki\CpuMemoryHealthCheck\Helpers\MeasureMemoryUsage;
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Result;
 use Spatie\Regex\Regex;

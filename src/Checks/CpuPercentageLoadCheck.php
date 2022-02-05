@@ -1,8 +1,8 @@
 <?php
 
-namespace Damianchojnacki\Checks;
+namespace Damianchojnacki\CpuMemoryHealthCheck\Checks;
 
-use Damianchojnacki\Helpers\MeasureCpuLoadPercentage;
+use Damianchojnacki\CpuMemoryHealthCheck\Helpers\MeasureCpuLoadPercentage;
 use Spatie\CpuLoadHealthCheck\CpuLoad;
 use Spatie\CpuLoadHealthCheck\CpuLoadCheck;
 use Spatie\Health\Checks\Result;
