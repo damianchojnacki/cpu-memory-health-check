@@ -1,7 +1,7 @@
 {
     "name": "damianchojnacki/cpu-memory-health-check",
     "description": "Current CPU Load and Memory Usage checks for Spatie Laravel Health package.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "library",
     "license": "MIT",
     "minimum-stability": "dev",
